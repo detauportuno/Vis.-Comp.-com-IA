@@ -1,8 +1,8 @@
- for email in emails:
+    for email in emails:
         # Verificar se o email contém a palavra "booking"
         titulo_email = email.subject
         padrao = r"\bbooking\b"
-        correspondencia = re.search(padrao, titulo_email, re.IGNORECASE)    
+        correspondencia = re.search(padrao, titulo_email, re.IGNORECASE) 
 
         # Verificar se o email contém o numero de order
         conteudo_email = email.body
