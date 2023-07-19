@@ -1,5 +1,10 @@
 # OUTLOOK-EXCEL-EMAILS-BOOKING
 
+
+ 
+ 
+ 
+ 
  for email in emails:
         # Verificar se o email contém a palavra "booking"
         titulo_email = email.subject
